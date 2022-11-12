@@ -1,0 +1,100 @@
+body{
+    background: url(imgs/shelf.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color:rgb(255, 255, 52);
+    width: 800px;
+    padding-left: 30px;
+    margin-left: 25%;
+    margin-top: 3%;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+    border: none;
+    min-height: 550px;
+    padding-top: 10px;
+    z-index: 1; 
+    padding-bottom: 40px;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#purchased{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.qtycost{
+    display: flex;
+}
+
+#qty{
+  /*  margin-right: 20px;*/
+}
+
+#cost{
+    margin-right: 40px;
+    margin-left: 10px;  
+}
+
+#Total{
+    text-align: right;
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.userinfo{
+    margin-top: 30px;
+}
+
+.change{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:60px;
+    left:415px;
+    z-index: 2;
+}
+
+.placeorder{
+    cursor:pointer;
+    text-align: center;
+    margin-left: 35%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    background-color: rgb(37 99 235);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    transition: box-shadow 0.1s;
+}
+
+.placeorder:hover{
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.pdf{
+    cursor:pointer;
+    height: 50px;
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 2;
+    top: 57px;
+    left: 64%;
+}

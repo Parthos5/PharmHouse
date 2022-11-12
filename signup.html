@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <div class="loginformdiv">
+
+        <h1 class="heading">SIGN UP</h1>
+      <form action="register.php" method="POST">
+       <div class="inputdiv">
+          
+          <div class="emaildiv">
+            <p class="emailtext">Enter your Email Address</p>
+            <input id="email" class="emailinput" type="text" name="email" placeholder="abc@gmail.com" required>
+          </div>
+
+          <div class="emaildiv">
+            <p class="emailtext">Create a username</p>
+            <input id="username" class="emailinput" name="user" type="text" placeholder="Username" required>
+          </div>
+
+          <div id="password" class="emaildiv">
+            <p class="emailtext">Create a Password</p>
+            <input  id="password" class="emailinput" name="password" type="text" placeholder="Password" required>
+          </div>
+
+          <div class="redirectdiv">
+            
+            <input type="checkbox">
+            <a href="login.html">
+            <button id="create" class="loginbutton">CREATE</button>
+            </a>
+          </form>
+          
+          </div>
+       </div>
+    
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>

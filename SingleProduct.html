@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PharmHouse</title>
+    <link rel="stylesheet" href="SingleProduct.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    
+    <nav class="bg-blue-600">
+      <ul class="flex justify-between py-4">
+          <div class="flex">
+              <img src="imgs/logo.png" class="h-20">
+              <a href="homepage.php">
+              <li class="text-5xl  font-semibold pt-4 text-white">
+                PharmHouse
+              </li>
+            </a>
+         </div>
+          <input  type="text" id="search" onkeyup = "search()" placeholder="Search Pharmhouse" class="h-10 mt-5 mr-2 pl-5">
+          <a href="AddToCart.php">
+            <li id="carthead">Cart</li>
+        </a>
+        <a href="logout.php">
+          <li id ="abouthead" >Logout</li>
+        </a>
+      </a>
+         
+      </ul>
+  </nav>
+    
+  <div id="container" class="container">
+   
+  </div>
+
+
+  <h1 id="heading">Search Results</h1>
+  <div id="searchresults">
+  
+  </div>
+    <script src="singleproduct.js"></script>
+  </body>
+</html>

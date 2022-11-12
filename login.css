@@ -1,0 +1,162 @@
+body{
+    background-image: url(imgs/main.jpg);
+    background-size:cover ;
+    background-position: bottom;
+    margin: 0%;
+    padding: 0%;
+}
+
+.loginformdiv{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
+    box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+    border: none;
+    border-radius: 8px;
+    flex:1.7;
+    margin-right: 5%;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*min-width: 450.075px;*/
+    /*max-width: 450.075px;*/   
+    width: 100vw;
+    height: 100vh;
+    padding-top: 150px;
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 550;
+    margin-bottom: 45px;
+}
+.brandsdiv{
+    
+    /*background-color: lightblue;*/
+    /*height:100vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandsdiv button{
+    margin-top: 20px;
+    cursor: pointer;
+    min-width: 372.2px;
+}
+
+.googlelogin{
+    height: 4em;
+    border-radius: 2em;
+    background-color: rgba(255,255,255,0.9);
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 1px solid rgb(135,135,135);
+}
+
+.phonelogin{
+    height: 4em;
+    border-radius: 2em;
+    background-color: rgba(255,255,255,0.9);
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 1px solid rgb(135,135,135);
+}
+
+.or{
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inputdiv{
+    /*background-color: yellow;*/
+    margin-left: 10px;
+}
+.emaildiv{
+    margin-bottom: 15px;
+}
+
+.emailtext{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0%;
+}
+
+.emailinput{
+    width: 372.2px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.fyp{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0%;
+}
+
+.fyp:hover{
+    text-decoration: underline;
+}
+
+.redirectdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /*background-color: lightblue;*/
+}
+
+.loginbutton{
+    background-color: rgb(37 99 235);;
+    height:45px;
+    width: 150px;
+    border-radius: 22.5px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border:none;
+    cursor: pointer;
+    color: white;
+}
+
+.signupdiv{
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#signupbtn{
+    margin-left: 34.5%;
+    background-color: rgb(37 99 235);;
+    height:45px;
+    width: 130px;
+    border-radius: 22.5px;
+    font-weight: bold;
+    font-size: 15px;
+    border:none;
+    cursor: pointer;
+    color: white;
+}
+
+.signupdiv{
+    display:flex;
+    column-gap: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: 38%;
+    align-items: center;
+}
